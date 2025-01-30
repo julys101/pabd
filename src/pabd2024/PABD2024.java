@@ -17,13 +17,16 @@ public class PABD2024 {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws SQLException {
+
+        Customer c = new Customer(1, "Dalai", "Lama", "dalai@microsoft.com", 10, 1);
         
-        Customer c = new Customer(1, "Dalai", "Lama", "lamad@gmail", 10, 1);
         CustomerDAO dao = new CustomerDAO();
         
-        //dao.insertCustomer(c);
-        dao.showCustomer();
-       
+        dao.insertCustomer(c);
+        dao.updateCustomer(611);
+        dao.deleteCustomer(610);
+        dao.showCustomers();
+        
     }
-    
+
 }

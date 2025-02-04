@@ -44,7 +44,7 @@ public class TrianguloUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        painel.setBackground(new java.awt.Color(102, 204, 255));
+        painel.setBackground(new java.awt.Color(204, 102, 255));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(51, 51, 51));
